@@ -1,9 +1,26 @@
 header {
-  color: green;
+  color: #E45826;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: .75em;
+}
+
+.center {
+  text-align: center;
 }
 
 .error {
-  margin: 15px 0;
-  color: red;
+  color: #ff0000;
 }
 
+#todo-container {
+  margin-top: 10vh;
+  list-style: decimal;
+  text-align: center;
+}

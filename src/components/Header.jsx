@@ -1,7 +1,7 @@
 function Header() {
     return (
         <header>
-            <h1>Cool ToDo App! 📍</h1>
+            <h1 className="center">Cool ToDo App! 📍</h1>
         </header>
     )
 }

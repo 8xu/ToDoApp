@@ -42,7 +42,7 @@ function main() {
     return (
         <div>
 
-            <form onSubmit={addToDo}>
+            <form className="center" onSubmit={addToDo}>
                 <input
                     type="text"
                     value={toDo}
@@ -54,7 +54,7 @@ function main() {
             </form>
             
             <div className="todos">
-                <ul>
+                <ul id="todo-container">
                     {/* Listeaza prin toata lista de ToDo-uri, primind si valoare si index si returneaza <li> */}
 
                     {todolist.map((todo, index) => {
