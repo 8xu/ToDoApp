@@ -48,7 +48,6 @@ function main() {
                     placeholder="ToDo"
                     onChange={updateToDo}
                 />
-
                 <button>Submit ToDo</button>
             </form>
             
