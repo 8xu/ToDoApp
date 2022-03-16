@@ -26,7 +26,6 @@ function main() {
 
     const addToDo = (e) => {
         e.preventDefault()
-        console.log(toDo.length);
         // Daca ToDo-ul este deja in lista, seteaza eroarea ca fiind true, altfel adauga ToDo-ul in lista
 
         if (todolist.includes(toDo) || toDo.length === 0) {
